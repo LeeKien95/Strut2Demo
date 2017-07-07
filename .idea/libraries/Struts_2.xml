@@ -13,6 +13,12 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-core-2.5.10.1.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/xstream-1.4.8.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/antlr-2.7.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/asm-5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4j-api-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-convention-plugin-2.5.10.1.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -12,10 +12,11 @@
 <div>
     <p>Hello World</p>
     <form action="hello">
-  <label for="name">Please enter your name</label><br/>
-  <input type="text" name="name"/>
-  <input type="submit" value="Say Hello"/>
-</form></div>
+      <label for="name">Please enter your name</label><br/>
+      <input type="text" name="name"/>
+      <input type="submit" value="Say Hello"/>
+    </form>
+</div>
 
 <div>
     <p>Upload</p>
@@ -63,5 +64,35 @@
         <s:submit name="submit" label="Submit" align="center" />
     </s:form>
 </div>
+
+<div>
+    <p>
+        Employee Form with multilingual language support
+    </p>
+    <div>
+        <h1><s:text name="global.heading"/></h1>
+
+        <s:url var="indexEN" namespace="/" action="locale" >
+            <s:param name="request_locale" >en</s:param>
+        </s:url>
+        <s:url var="indexES" namespace="/" action="locale" >
+            <s:param name="request_locale" >es</s:param>
+        </s:url>
+        <s:url var="indexFR" namespace="/" action="locale" >
+            <s:param name="request_locale" >fr</s:param>
+        </s:url>
+
+        <s:a href="%{indexEN}" >English</s:a>
+        <s:a href="%{indexES}" >Spanish</s:a>
+        <s:a href="%{indexFR}" >France</s:a>
+
+        <s:form action="empinfo" method="post" namespace="/" >
+            <s:textfield name="name" key="global.name" size="20" />
+            <s:textfield name="age" key="global.age" size="20" />
+            <s:submit name="submit" key="global.submit" />
+        </s:form>
+    </div>
+</div>
+
 </body>
 </html>
