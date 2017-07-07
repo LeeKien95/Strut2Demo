@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Admin
-  Date: 6/26/2017
-  Time: 1:40 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
@@ -12,6 +5,8 @@
     <title>Hello World</title>
 </head>
 <body>
-Hello World, <s:property value="name"/>
+    Entered value : <s:property value="name"/><br/>
+    Value of key 1: <s:property value="key1"/><br/>
+    Value of key 2: <s:property value="key2"/><br/>
 </body>
 </html>

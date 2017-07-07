@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration package="log4j.test" 
+               status="WARN">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <File name="MyFile" fileName="D:\Programing\java\Log\app.log">
+        <PatternLayout>
+        	<Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
+        </PatternLayout>
+    	</File> 
+     	<Async name="Async">
+      		<AppenderRef ref="MyFile"/>
+    	</Async> 
+    </Appenders>
+    
+    
+    <Loggers>
+        <Logger name="log4j.test.Log4jTest" level="ALL">
+            <AppenderRef ref="Console"/>
+        </Logger>
+        <Root level="ALL">
+            <AppenderRef ref="Async"/>
+        </Root>
+    </Loggers>
+</Configuration>

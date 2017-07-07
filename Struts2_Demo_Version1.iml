@@ -9,9 +9,7 @@
         <webroots>
           <root url="file://$MODULE_DIR$/web" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src" />
-        </sourceRoots>
+        <sourceRoots />
       </configuration>
       <facet type="Struts2" name="Struts 2">
         <configuration>
@@ -67,6 +65,7 @@
             <file>jar://$MODULE_DIR$/../struts-2.5.10.1-all.zip!/struts-2.5.10.1/src/apps/showcase/src/main/resources/struts-xslt.xml</file>
             <file>jar://$MODULE_DIR$/../struts-2.5.10.1-all.zip!/struts-2.5.10.1/src/apps/showcase/src/main/resources/struts-tags-ui.xml</file>
             <file>jar://$MODULE_DIR$/../struts-2.5.10.1-all.zip!/struts-2.5.10.1/src/apps/showcase/src/main/resources/struts.xml</file>
+            <file>file://$MODULE_DIR$/web/WEB-INF/classes/struts.xml</file>
           </fileset>
           <propertiesKeys disabled="false" />
         </configuration>

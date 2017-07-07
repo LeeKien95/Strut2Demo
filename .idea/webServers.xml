@@ -2,7 +2,7 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="3950d05b-45df-4076-9cfc-c3e994059291" name="Tomcat" url="http://localhost">
+      <webServer id="3950d05b-45df-4076-9cfc-c3e994059291" name="Tomcat" url="http://localhost:8080">
         <fileTransfer port="0" mountedRoot="D:\apache-tomcat-8.5.15" accessType="MOUNT" />
       </webServer>
     </option>
