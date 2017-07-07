@@ -19,6 +19,7 @@
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/log4j-core-2.8.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.40-bin.jar!/" />
       <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-convention-plugin-2.5.10.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/struts2-dojo-plugin-2.3.16.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

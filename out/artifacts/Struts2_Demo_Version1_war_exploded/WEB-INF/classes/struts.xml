@@ -66,6 +66,13 @@
                 <!--method="execute">-->
             <!--<result name="success">/index.jsp</result>-->
         <!--</action>-->
+
+        <!--<action name="employee"-->
+                <!--class="com.tutorialspoint.struts2.EmployeeMk2"-->
+                <!--method="execute">-->
+            <!--<result name="success">/employee.jsp</result>-->
+        <!--</action>-->
+
     </package>
 
 </struts>
