@@ -6,8 +6,8 @@
     <constant name="struts.devMode" value="true" />
     <constant name="struts.multipart.maxSize" value="1000000000" />
     <constant name="struts.custom.i18n.resources" value="global" />
-    <package name="helloworld" extends="struts-default">
 
+    <package name="helloworld" extends="struts-default">
         <interceptors>
             <interceptor-stack name="basicStack">
                 <interceptor-ref name="exception"/>
@@ -72,6 +72,22 @@
                 <!--method="execute">-->
             <!--<result name="success">/employee.jsp</result>-->
         <!--</action>-->
+
+    </package>
+
+    <package name="myhibernate" extends="hibernate-default">
+
+        <action name="addStudent" method="execute"
+                class="org.hibernate.tutorial.domain.AddStudentAction">
+            <result name="success" type="redirect">
+                listStudents
+            </result>
+        </action>
+
+        <action name="listStudents" method="listStudents"
+                class="org.hibernate.tutorial.domain.AddStudentAction">
+            <result name="success">/students.jsp</result>
+        </action>
 
     </package>
 
