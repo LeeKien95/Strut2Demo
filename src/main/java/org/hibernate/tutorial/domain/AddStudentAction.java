@@ -12,26 +12,20 @@ import java.util.List;
 /**
  * Created by Admin on 7/11/2017.
  */
-//@Results(
-//        @Result(name = "success", type = "redirect", location = "listStudents")
-//
-//)
 public class AddStudentAction extends ActionSupport implements ModelDriven<Student> {
     public Student getModel() {
-        return null;
+        return student;
     }
 
     Student student = new Student();
     List<Student> students = new ArrayList<Student>();
     StudentDAO dao = new StudentDAO();
 
-//    @Action(value = "addStudent")
     public String execute() {
         dao.addStudent(student);
         return SUCCESS;
     }
 
-//    @Action(value = "listStudents")
     public String listStudents(){
         students = dao.getStudents();
         return SUCCESS;
