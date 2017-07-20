@@ -94,5 +94,25 @@
     </div>
 </div>
 
+<div>
+	<p>Add event</p>
+	<s:form action="addevent" method="post" namespace="/">
+		<s:textfield name="title" label="Title" size="20" />
+		<s:textfield name="date" type="date" label="Date"/>
+		<s:submit label="Submit" align="center"/>
+	</s:form>
+</div>
+
+
+<div>
+	<p>Add Person</p>
+	<s:form action="addperson" method="post" namespace="/">
+		<s:textfield name="firstname" label="First Name" size="20" />
+		<s:textfield name="lastname" label="Last Name" size="20"/>
+		<s:textfield name="age" type="number" label="Age"/>
+		<s:submit label="Submit" align="center"/>
+	</s:form>
+</div>
+
 </body>
 </html>
